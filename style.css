@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background:
+        linear-gradient(rgba(78, 77, 77, 0.763), rgba(0, 0, 0, 0.834)),
+        url(ridderhof-background-1794077_1920.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* logo left, menu right */
+    align-items: center;
+    align-self: center;
+    /* vertical alignment */
+    padding: 0;
+    width: 100%;
+
+}
+
+.logo img {
+    width: 150px;
+    height: 100%;
+}
+
+.menu {
+    max-width: fit-content;
+    
+}
+
+.menu ul {
+    width: auto;
+    list-style: none;
+    margin: 50px;
+    color: rgb(2, 143, 148);
+    align-items: center;
+    text-align: center;
+}
+
+.menu li {
+    text-decoration: none;
+    gap: 90px;
+    color: rgb(2, 157, 165);
+    border: 2px;
+    border-color: rgb(0, 141, 154);
+    border-radius: 20PX;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: fit-content;
+    border: solid;
+    margin-right: 30px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 1000px;
+    border-color: #ffffff;
+    border-width: 3px;
+    
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #009c8a;
+    width: 100%;
+    height: fit-content;
+    border: solid;
+    margin-right: 30px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 1000px;
+    border-color: #009d90;
+    border-width: 3px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    /* logo left, menu right */
+    align-items: center;
+    align-self: center;
+    /* vertical alignment */
+    padding: 0;
+    width: 100%;
+}
+
+.hero h1 {
+    text-align: left;
+    color: rgb(0, 121, 123);
+    margin: 50px;
+    font-size: 50px;
+}
+
+.para {
+    width: 55%;
+    margin: 50px;
+    text-align: justify;
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img {
+    margin-right: 50px;
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgb(19, 24, 25), rgb(0, 0, 0));
+    text-align: center;
+    padding-top: 5%;
+    font-size: medium;
+    font-style: normal;
+    color: #ffffff;
+    align-items: center;
+    align-self: center;
+}
+
+.p {
+    width: 25%;
+    height: fit-content;
+    border: solid;
+    padding: 015px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 100px;
+    border-color: #007579;
+    border-width: 3px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 38%;
+    color: #007579;
+}
+
+.about h1 {
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.button label a {
+    width: 15%;
+    height: fit-content;
+    color: #007579;
+    border: solid;
+    padding: 15px;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 1000px;
+    border-color: #007579;
+    border-width: 3px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button label a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: fit-content;
+    border: solid;
+    margin-right: 30px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 1000px;
+    border-color: #ffffff;
+    border-width: 3px;
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.grid {
+    display: flex;
+    columns: 1fr 1fr;
+    height: auto;
+    padding-top: 40px;
+
+}
+
+.grid-contaioner {
+    display: flex;
+    columns: 1fr 1fr 1fr;
+    height: 60vh;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.grid-item {
+    color: #ffffff;
+    border: 3PX;
+    border-radius: 30px;
+    border-color: #007579;
+    border-style: solid;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: radial-gradient(rgb(39, 49, 51), rgb(0, 0, 0));
+}
+
+.grid-item:hover {
+    color: #ffffff;
+    border-radius: 30px;
+    border-color: #ffffff;
+    border-width: 3px;
+    transform: scale(1.1);
+    transition: 1s;
+    justify-content: center;
+}
+
+.grid-item p {
+    padding: 20PX;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.grid-item h1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.education {
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(rgb(19, 24, 25), rgb(0, 0, 0));
+    text-align: center;
+    padding-top: 5%;
+    font-size: medium;
+    font-style: normal;
+    color: #ffffff;
+    align-items: center;
+    align-self: center;
+}
+
+.h {
+    width: 25%;
+    height: fit-content;
+    border: solid;
+    padding: 015px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 100px;
+    border-color: #007579;
+    border-width: 3px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 38%;
+    color: #007579;
+}
+.edu-h{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.items{
+    color: #ffffff;
+    border: 3PX;
+    border-radius: 30px;
+    border-color: #007579;
+    border-style: solid;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: radial-gradient(rgb(39, 49, 51), rgb(0, 0, 0));
+}
+.items img{
+    width: 50px;
+}
+.items:hover{
+    color: #ffffff;
+    border-radius: 30px;
+    border-color: #ffffff;
+    border-width: 3px;
+    transform: scale(0.9);
+    transition: 1s;
+    justify-content: center;   
+}
