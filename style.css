@@ -13,7 +13,7 @@ body {
 .main {
     background:
         linear-gradient(rgba(78, 77, 77, 0.763), rgba(0, 0, 0, 0.834)),
-        url(ridderhof-background-1794077_1920.jpg);
+        url(/Resources/ridderhof-background-1794077_1920.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
